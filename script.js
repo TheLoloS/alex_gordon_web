@@ -1,8 +1,8 @@
-var tab_run =  ["/images/alex_run/run1.png", "/images/alex_run/run2.png", "/images/alex_run/run3.png", 
-"/images/alex_run/run4.png", "/images/alex_run/run5.png", "/images/alex_run/run6.png", 
-"/images/alex_run/run7.png", "/images/alex_run/run8.png", "/images/alex_run/run9.png", 
-"/images/alex_run/run10.png", "/images/alex_run/run11.png", "/images/alex_run/run12.png", 
-"/images/alex_run/run13.png", "/images/alex_run/run14.png", "/images/alex_run/run15.png", "/images/alex_run/run16.png", ]
+var tab_run =  ["./images/alex_run/run1.png", "./images/alex_run/run2.png", "./images/alex_run/run3.png", 
+"./images/alex_run/run4.png", "./images/alex_run/run5.png", "./images/alex_run/run6.png", 
+"./images/alex_run/run7.png", "./images/alex_run/run8.png", "./images/alex_run/run9.png", 
+"./images/alex_run/run10.png", "./images/alex_run/run11.png", "./images/alex_run/run12.png", 
+"./images/alex_run/run13.png", "./images/alex_run/run14.png", "./images/alex_run/run15.png", "./images/alex_run/run16.png", ]
 function init()
 {
     canvas = document.getElementById("my-app");
@@ -17,7 +17,7 @@ window.onload = function() {
     window.addEventListener('resize', init());
     var myAudio = document.createElement("audio");
     myAudio.loop = true;
-    myAudio.src = "/music/music/menu.mp3";
+    myAudio.src = "./music/music/menu.mp3";
     myAudio.play();
     var runfr = 0
     var canvas = document.querySelector("#my-app");
